@@ -1,0 +1,90 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "ExceptionsSample/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/ExceptionsSample.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ExceptionsSample.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ExceptionsSample/1.0.0": {
+      "type": "project",
+      "path": "../ExceptionsSample/ExceptionsSample.csproj",
+      "msbuildProject": "../ExceptionsSample/ExceptionsSample.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "ExceptionsSample >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/felipegouveiae/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/felipegouveiae/Documents/git/bsit/exceptions-sample/Solution1/ExceptionSample.Console/ExceptionSample.Console.csproj",
+      "projectName": "ExceptionSample.Console",
+      "projectPath": "/Users/felipegouveiae/Documents/git/bsit/exceptions-sample/Solution1/ExceptionSample.Console/ExceptionSample.Console.csproj",
+      "packagesPath": "/Users/felipegouveiae/.nuget/packages/",
+      "outputPath": "/Users/felipegouveiae/Documents/git/bsit/exceptions-sample/Solution1/ExceptionSample.Console/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/felipegouveiae/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "/Users/felipegouveiae/git/hello-gym/hello-gym-erp/src/backend/VimCorPro.Microservices/nuget-packages/output": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "/Users/felipegouveiae/Documents/git/bsit/exceptions-sample/Solution1/ExceptionsSample/ExceptionsSample.csproj": {
+              "projectPath": "/Users/felipegouveiae/Documents/git/bsit/exceptions-sample/Solution1/ExceptionsSample/ExceptionsSample.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
